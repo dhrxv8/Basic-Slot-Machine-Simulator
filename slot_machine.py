@@ -187,3 +187,5 @@ def main():
                 play_bonus_round()
 
     print(f"You left with ${balance}")
+
+main()
