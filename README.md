@@ -1,18 +1,41 @@
-# Slot Machine Game
+# Basic Slot Machine Simulator
 
-This code is a Python implementation of a slot machine game. The game is played in the terminal and prompts the user to deposit money and then spin the slot machine. The user can bet on a certain number of lines and a certain amount per line. The game then generates a random spin and checks the winnings. The net winnings (winnings - total bet) are returned to the user's balance.
+A terminal-based Python slot machine game built to practice core programming fundamentals: functions, loops, input validation, random sampling, dictionaries, and simple game-state management.
 
-## How to Play
+## What It Does
 
-1. Clone or download the `slot_machine.py` file.
-2. Run the `slot_machine.py` file in a Python environment.
-3. Enter the amount of money you want to deposit.
-4. Enter the number of lines you want to bet on (between 1 and 3).
-5. Enter the amount you want to bet per line (between 1 and 100).
-6. Press enter to spin the slot machine.
-7. If you win, your winnings will be added to your balance. If you lose, your bet will be subtracted from your balance.
-8. If your balance reaches $1000, you will be prompted to play a bonus round.
+- Prompts the player for an initial deposit
+- Lets the player choose how many lines to bet on
+- Validates bet size against the player's current balance
+- Generates a 3x3 slot-machine spin
+- Calculates winnings based on symbol values and winning lines
+- Includes a wild symbol (`W`) and a simple bonus-round hook
 
+## Concepts Practiced
 
+- Python control flow
+- User input validation
+- Randomized game logic
+- Data structures with dictionaries and lists
+- Function decomposition
+- Terminal UI formatting
 
+## Project Structure
 
+```text
+Basic-Slot-Machine-Simulator/
+├── slot_machine.py
+└── README.md
+```
+
+## Run Locally
+
+```bash
+git clone https://github.com/dhrxv8/Basic-Slot-Machine-Simulator.git
+cd Basic-Slot-Machine-Simulator
+python slot_machine.py
+```
+
+## Notes
+
+This is an early Python learning project. It is intentionally simple and focused on practicing fundamentals rather than production-level game design.
